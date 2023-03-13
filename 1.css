@@ -1,0 +1,183 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(241, 177, 177);
+    background-position: center;
+    background-size: cover;
+    background-position: center;
+    background-image: url("/anime-one-piece-monkey-d-luffy-wallpaper-preview.jpg");
+    width: 100%;
+    height: 10%;
+    background-attachment: fixed;
+}
+.navbar{
+    font-size: 40px;
+    background-color: transparent;
+    height: 50px;
+    width: 100%;
+    height: 500px;
+    
+}
+.navbar a{
+    margin: 4%;
+    text-decoration: none;
+    height: 500px;
+
+
+}
+.navbar a:hover{
+    background-color: rgb(105, 120, 255);
+}
+.main1{
+    
+    background-color:aquamarine;
+    opacity: 0.5;
+    box-sizing: border-box;
+    height: 500px;
+    width: 100%;
+    padding: 50px;
+    margin-bottom: 0px;
+    
+}
+.logo{
+    color: rgb(255, 0, 51);  
+    scale: 1;
+    padding: 30px;  
+}
+.logo i{
+    padding: 15px;
+}
+.logo :hover{
+    scale: 1.8; 
+    color: rgb(0, 0, 0);
+    /* rotate: 60deg; */
+    /* transition-duration: 0.5s; */
+}
+.text img {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    display: flex;
+    float: right;
+    padding: 20px;
+}
+.grid{
+    padding: 20px;
+    box-sizing: border-box;
+    border-style: solid;
+    border-color: rgb(255, 136, 0);
+    flex-direction: column;
+    grid-template-columns:500px 500px auto ;
+    grid-template-rows: 500px 500px ;
+    display: grid;
+    text-align: center;
+    height: 1080px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+  gap: 5px;
+  row-gap: 10px;
+}
+.box{
+    border-style: double;
+    border-color: rgb(0, 38, 255);
+    height: 500px;
+}
+.grid img{
+    height: 200px;
+    width: 200px;
+}
+body{
+    height: 2000px;
+    background-color: rgb(186, 236, 245);
+    /* border-style: solid;
+    border-color: rgb(0, 0, 0); */
+}
+.aboutus{
+    padding: 100px;
+    justify-content: center;
+    text-align: center;
+    background-color: rgb(215, 253, 0);
+    height: 300px;
+    color: rgb(220, 20, 60);
+}
+.contact{
+    padding-top:5% ;
+    justify-content: center;
+    text-align: center;
+    background-color: rgb(220, 20, 60);
+    height: 700px;
+    width: 100%;
+    color: rgb(255, 217, 0);
+}
+.contact input{
+    margin: 15px;
+    font-size: large;
+    font-weight: 500;
+    border-style: double;
+    width: 60%;
+    height: 40px; 
+
+}
+.contact a{
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.sign1 input{
+    height: 100px;
+    width: 20%;
+    border-radius: 5%;
+    color: rgb(250, 250, 250);
+    background-color: rgb(23, 139, 0);
+    border-style: none;
+    font-size: 50px;
+    padding: 2%;
+    text-align: center;
+}
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.bar{
+    width: 100%;
+    text-align: center;
+    text-align: end;
+    border-style: solid;
+    border-color: rgb(255, 0, 0);
+}
+.bar input{
+    background: transparent;
+    height: 30px;
+    width: 40%;
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding: 1%;
+    border-style: none;
+    outline: none;
+}
+.bar button{
+    border-radius: 50%;
+    border-style: none;
+    padding: 1%;
+    background: transparent;
+}
+.bar button img{   
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    /* makes a pointer */
+    cursor: pointer;
+    /* makes transparent or blend with the background less than 1  */
+    opacity: 0.3;
+}
+
+
