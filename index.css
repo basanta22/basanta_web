@@ -3,170 +3,140 @@
     padding: 0%;
     box-sizing: border-box;
     font-family: 'Times New Roman', Times, serif;
-    font-size: 30px;
+    font-size: 25px;
     font-weight: 600;
 }
 body{
-    background-attachment: fixed;
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-image: url("/anime-one-piece-monkey-d-luffy-wallpaper-preview.jpg");
+    background-color: rgb(53 54 58);
+    background-size: contain;
     width: 100%;
     height: auto;
   
 }
+#logo_main_web{
+    padding: 10px;
+    font-size: 32px;
+    text-align: center;
+    color: whitesmoke;
+}
 .navbar{
-    height: 100px;
-    font-size: 40px;
+    height:auto;
     width: 100%;
     backdrop-filter: blur(5px); 
-    padding: 5px;
-    
+    padding: 5px;   
 }
 .navbar a{
     display: flex;
-    height: auto;
     padding: 10px;
     text-decoration: none;
     float: left;
+    font-size: 30px;
+    color: rgb(221, 198, 198);
 }
 .navbar a:hover{
-    background-color: rgb(105, 120, 255);
+   color: gold;
+    
 }
 @media screen and (max-width: 600px) {
     .navbar{
-        height: 500px;
+        height:auto;
     }
     .navbar a{
         width: 100%;
-        height: auto;
-        background-color: rgb(17, 39, 136);
+        background-color:#913fe2;
         text-align: center;
         float: none;
         display: block;
-        padding: 15px;
-        color: black;
-        
+        color: whitesmoke;
     }
-  }
-
+    .searchbar{
+        border-radius: 10px
+    }
+} 
 .searchbar{
-    width: auto;
-    height: auto; 
-    display: flex;
-    float: left;
-    background-color: transparent;
+    justify-content: right;
+    align-items: flex-end;
+    text-align: right;
+    width: 100%;
     border-style: solid;
-    border-color: red;
-    border-width: 1px;
+    border-color: rgb(253, 0, 0);
+    border-width: 1.5px;
 }
 .searchbar input[type=text] {
-    text-align: center; 
+    background-color: rgb(53 54 58);
+    color: blueviolet;
+    text-align:right; 
     padding: 10px;
     border: none;
-    font-size: la;
+    font-size: 22px;
     outline: none;
-    background: transparent; 
   }
 .searchbar ::placeholder{
-      color: rgba(159, 161, 26, 0.705);
-      font-size: larger;
-  }
-.searchbar_click button{
-    border-radius: 50%;
-    border-style: none;
-    padding: 5px 0px;
-    background: transparent;
-    outline: none;  
+      color: rgba(137, 43, 226, 0.767);
+      font-size: 25px;
+      background-color: rgb(53 54 58);
 }
-.searchbar_click button img{   
-    border-radius: 50%;
-    height: 30px;
-    width: auto;
-    cursor: pointer;
-    opacity: 0.7;
-    padding: 0%;
+#search_button{ 
+    float: right;
+    padding: 7px;
+    margin-right: 10px;
+   background-color: transparent;
+    outline: none;
+    /* border: none; */
+
 }
 .main1{
-    background-color:rgba(58, 185, 26, 0.596);   
+    background-color: rgb(64, 90, 175);
     height: auto;
     width: 100%;
     padding: 50px;
-    margin: 10% 0% 10% 0%;
 }
-.icon_logo{
-    color: rgb(243, 242, 242);  
-    scale: 1.2;
-    padding: 30px;  
+.icon_logo {
+    display: flex;
+    padding: 10px;
+} 
+.icon_logo button{
+   display: flex;
+   background: transparent;
+   padding: 10px;
 }
-.icon_logo i{
-    padding: 15px;
+#youtube_logo{
+    color: red;
+    cursor: pointer;
 }
-.icon_logo1 :hover{
-    scale: 1.8; 
-    color: rgb(0, 0, 0);
+#tiktok_logo{
+    color: black;
+    cursor: pointer;
+
 }
-.icon_logo2 :hover{
-    scale: 1.8; 
-    color: rgb(255, 0, 0);
-}
-.profile img{
+.profile_pic img{
+    padding: 10px;
     height: 200px;
     width: 200px;
     border-radius: 50%;
     display: flex;
     float: right;
-    padding: 20px;
 }
-/* .grid{
-    padding: 20px;
-    box-sizing: border-box;
-    border-style: solid;
-    border-color: rgb(255, 136, 0);
-    flex-direction: column;
-    grid-template-columns:500px 500px auto ;
-    grid-template-rows: 500px 500px ;
-    display: grid;
-    text-align: center;
-    height: 1080px;
-    width: 100%;
-    justify-content: center;
-    align-items: center;
-    gap: 5px;
-    row-gap: 10px;
-}
-.box{
-    border-style: double;
-    border-color: rgb(0, 38, 255);
-    height: 500px;
-}
-.grid img{
-    height: 200px;
-    width: 200px;
-} */
 .about_page{
-    padding: 20px;
+    padding-top:150px;
     justify-content: center;
     align-items: center;
-    padding: 150px;
     text-align: center;
     background-color: rgba(6, 213, 228, 0.479);
     height: 500px;
     width: 100%;
     color: rgb(220, 20, 60);
-    opacity: 1;
 }
 .contactinfo{
+    text-align: center;
     justify-content: center;
     align-items: center;
-    padding: 150px;
+    padding-top:150px;
     background-color: rgba(255, 217, 0, 0.74);
     height: 500px;
     width: 100%;
     color: rgb(150, 6, 6);
 }
-
 .contactinfo a{
     text-transform: uppercase; 
     color: rgb(240, 4, 4)
@@ -174,60 +144,30 @@ body{
 .contactinfo a:hover{
     color: green
 }
-.signup_settings{
-    background-color: rgb(205, 207, 171);
-    opacity: 0.8;
-    height: auto;
-    width: 100%;
-}
-.signup_settings input{
-    font-size: large;
-    font-weight: 500;
-    width: auto;
-    height: 40px; 
-    outline: none;
-}
-.inputbar2 input{
-    margin: 15px;
-    font-size: large;
-    font-weight: 500;
-    border-style: none;
-    width: auto;
-    height: 40px; 
-    outline: none;
-}
-.sign1 input{
-    height: auto;
-    width: 20%;
-    border-radius: 5%;
-    color: rgb(250, 250, 250);
-    background-color: rgb(23, 139, 0);
-    border-style: none;
-    font-size: 20px;
-    padding: 2px;
-    text-align: center;
-}
 .last_page_box{
-    padding: 180px 0px 180px 0px;
-    height: 500px;
+    padding: 80px 0px 180px 0px;
+    height: 300px;
     background-color: #222222b9;
-
 }
-.last_icon_logo a{
+#last_icon1{
     color: rgb(243, 242, 242); 
+    padding: 25px; 
+    scale: 1.5;
 } 
-.last_icon_logo i:hover{
+#last_icon1 i:hover{
     color: crimson;
 }
-.last_icon_logo i{
+#last_icon1 i{
     padding: 25px;
     color: rgb(243, 242, 242); 
     scale: 1.5;
 
 } 
 
-.footer{
-    padding: 10px 0px;
+.footer1{
+    color:rgb(250, 243, 243);
+    padding: 1%;
+    
 }
 
   
