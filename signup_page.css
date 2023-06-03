@@ -6,19 +6,29 @@
     box-sizing: border-box;
 }
 body{
-    background-color: rgb(238, 216, 175);
+    background-color: rgb(206, 206, 206);
     background-size: contain;
-}
-#logo_main{
-    padding: 10px;
-    font-size: 32px;
-    text-align: center;
-    color: whitesmoke;
-    background-color: rgb(53 54 58);
+    width: 100%;
+    height: auto;
 }
 .navbar{
+    text-align: center;
+    justify-content: center;
+    align-content: center;
     height:auto;
     width: 100%;
+    padding: 5px;  
+    background-color: rgb(53 54 58);
+}
+.navbar a{
+    font-size: 28px;
+    color: whitesmoke;
+    text-decoration: none;
+}
+#logo_main_web1{
+    background: transparent;
+    padding: 10px;
+    text-align: center;
 }
 .signup_settings{
     text-align: center;
@@ -60,6 +70,9 @@ color: rgb(167, 151, 121);
         background-color:rgb(240, 203, 203);
         background-size: contain;
         height: 100%;
+    }
+    .navbar{
+        background-color: rgb(53 54 58);
     }
     .signup_settings{
         background-color:transparent;
